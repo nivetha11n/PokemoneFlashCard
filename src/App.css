@@ -1,31 +1,32 @@
 .App {
   text-align: center;
+  color: rgba(45, 24, 77, 0.842);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 50s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(124, 115, 115, 0.027);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0d4d5f;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.product-img {
+  height: 200px;
+}
+
+.product-card {
+  width: 280px;
+  color: #010205;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 4px;
+  margin: 30px;
+  float: right;
+  border: 3px solid;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bolder;
+  color: rgba(149, 134, 218, 0.726);
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(90, 94, 94);
+  text-align: center;
+}
+
+.App {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* .user {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #b3e3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+} */
+
+.paginationBttns {
+  width: 80%;
+  height: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  color: gray;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: gray;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #7d7edb;
+}
+
+.paginationDisabled a {
+  color: white;
+  background-color: grey;
 }
