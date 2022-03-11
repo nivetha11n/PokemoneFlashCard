@@ -10,12 +10,12 @@
       
          
 3. How to run project: 
-      1. Clone project 
-      2. Open src -->Component -->data-->to run this command npm install after use this command npm start .
-            Before open the project need to install these packages : npx create-react-app pokeman, npm install react-paginate , npm start.
+      3.1 Clone project 
+      3.2 npx create-react-app pokeman
+      3.3 npm install react-paginate 
+      3.4 npm start.
             
-6. Output screenshot:
-      To search the pokemon list : For example : Bulbasaur
+            To search the pokemon list : For example : Bulbasaur
       
   
          
