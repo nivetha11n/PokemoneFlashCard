@@ -15,8 +15,7 @@ Word document -> Project document
        
 3.  Project git Repositories:
  
-      1. Link :https://github.com/Eswar30/Pokemon-Project
-      2. Clone git :https://github.com/Eswar30/Pokemon-Project.git
+      1. Link :https://github.com/nivetha11n/PokemoneFlashCard
       
          
 4. How to run project: 
